@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void Add_Item() {
+        //注意在listview中item是从0开始的
         int length = mouleList.size();//获取moulelist的长度。
         Moule moule = new Moule(R.mipmap.ic_launcher, "i = " + length);
         mouleList.add(moule);
